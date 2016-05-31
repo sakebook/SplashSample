@@ -13,8 +13,22 @@
             android:src="@mipmap/ic_launcher"/>
     </item>
     <item
+        android:gravity="center_vertical"
+        android:left="@dimen/large_margin">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+    <item
+        android:gravity="center_vertical"
+        android:right="@dimen/large_margin">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+    <item
         android:gravity="bottom"
-        android:top="@dimen/large_margin">
+        android:bottom="@dimen/large_margin">
         <bitmap
             android:gravity="center"
             android:src="@mipmap/ic_launcher"/>

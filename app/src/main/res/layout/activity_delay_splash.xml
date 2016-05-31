@@ -11,4 +11,14 @@
     android:background="@color/colorAccent"
     tools:context="com.sakebook.android.sample.splashsample.DelaySplashActivity">
 
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="32sp"
+        android:text="DelaySplash"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
