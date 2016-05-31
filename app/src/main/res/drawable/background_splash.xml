@@ -4,9 +4,17 @@
     android:opacity="opaque">
 
     <item
-        android:drawable="@android:color/holo_purple"/>
+        android:drawable="@color/colorPrimaryDark"/>
 
-    <item>
+    <item
+        android:gravity="center">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+    <item
+        android:gravity="bottom"
+        android:top="@dimen/large_margin">
         <bitmap
             android:gravity="center"
             android:src="@mipmap/ic_launcher"/>

@@ -8,7 +8,7 @@ import android.view.KeyEvent;
 
 public class DelaySplashActivity extends AppCompatActivity {
 
-    private final static int SPLASH_TIME = 4000;
+    private final static int SPLASH_TIME = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class DelaySplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(DelaySplashActivity.this, MainActivity.class);
+                Intent intent = SplashActivity.createIntent(DelaySplashActivity.this, DelaySplashActivity.class.getSimpleName());
                 startActivity(intent);
                 finish();
             }
